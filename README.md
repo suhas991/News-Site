@@ -23,6 +23,6 @@ Collections of latest news by different categories using NEWS_API
    npm run dev
    ```
 
-![RESULT]
+RESULT
 
 ![image](https://github.com/user-attachments/assets/8e9c62d9-1d14-495e-a968-4732b000ae5c)
