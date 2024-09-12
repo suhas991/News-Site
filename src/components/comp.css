@@ -2,7 +2,42 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    /* justify-content: center; */
+    align-content: center;
+    margin-left: 25px;
+
+}
+
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     align-content: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2px;
+}
 
+.headings{
+    padding-left: 50px;
+}
+
+.aside{
+    width: 20%;
+    display: flex;
+    flex-direction:column;
+    /* background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px; */
+}
+
+.headingList{
+  display: flex;
+  flex-direction:row;
+}
+
+.collections{
+    width: 90%;
 }

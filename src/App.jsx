@@ -3,6 +3,9 @@ import './App.css'
 import Footer from './components/Footer'
 import Navbars from './components/Navbars'
 import NewsBoard from './components/NewsBoard'
+import Slider from './components/Slider'
+import TopNews from './components/TopNews'
+
 function App() {
 
   const [category,setCategory]=useState('general');
@@ -13,6 +16,7 @@ function App() {
       <NewsBoard category={category}/>
       <Footer/>
     </>
+    
   )
 }
 
